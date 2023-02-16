@@ -1,23 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <iframe src="http://localhost:8000/video?rtsp_url=rtsp://admin:suhwooms0792%@61.82.34.191:554/Streaming/Channels/0102"/>  
+      <iframe src="http://localhost:8000/video?rtsp_url=rtsp://admin:suhwooms0792%@61.82.34.191:554/Streaming/Channels/0202"/>  
+      <iframe src="http://localhost:8000/video?rtsp_url=rtsp://admin:suhwooms0792%@61.82.34.191:554/Streaming/Channels/0302"/>  
+      <iframe src="http://localhost:8000/video?rtsp_url=rtsp://admin:suhwooms0792%@61.82.34.191:554/Streaming/Channels/0402"/>  
+      
+
     </div>
   );
 }
